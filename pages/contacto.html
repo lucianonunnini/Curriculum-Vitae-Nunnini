@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+
+
+    <h1 class="mx-3 mb-3 text-center">Formulario de Contacto</h1>
+
+    <h3> Por favor complete el siguiente formulario</h3>
+    <nav class="text-center">
+        <a href="../index.html">Inicio</a>
+        <a href="#">Contacto</a>
+      </nav>
+
+<form action ="">
+    <label for="NOMBRE-EMPRESA"> 
+
+   <td>¿Cuál es el nombre de la empresa?</span> </td> <span> 
+    <input type= "text" id="NOMBRE-EMPRESA" required>
+    </tr>
+
+</label>
+    
+<br> <br>
+
+<label for="NOMBRE-RECLUTADOR"> 
+    <span> ¿Cuál es el nombre del reclutador?</span>
+    <input type= "text" id="NOMBRE-RECLUTADOR" autocomplete="">
+
+</label>
+
+<br> <br>
+
+<label for="email"> 
+    <span> ¿Cual es tu email?</span>
+    <input type= "email" id="email">
+
+</label>
+
+<br> <br>
+
+<span> SELECCIONE LA MODALIDAD DE TRABAJO</span>
+<select name = "Modalidad de trabajo" id="" required> 
+<option value ="PRESENCIAL">REMOTO</option>
+<option value="HOME OFFICE">HOME OFFICE</option>
+<option value="MODO HIBRIDO">MODO HIBRIDO</option>
+
+</select> 
+<br><br>
+
+<span> ELIJA LA DISPONIBILIDAD HORARIA SOLICITADA</span><br><br> 
+<input type="radio" name = "DISPONIBILIDAD" value="PART TIME" >PART TIME <br><br>
+<input type="radio" name = "DISPONIBILIDAD" value="FULL TIME" >FULL TIME<br><br>
+
+
+
+<span> ELIJA EL PAGO EN TIPO DE MONEDA</span>
+<select name = "TIPO DE MONEDA" id=""> 
+<option value ="PESOS ARG">PESOS ARG</option>
+<option value="USD">USD</option>
+<option value="CRIPTOMONEDAS">CRIPTOMONEDAS</option>
+<option value="BONO ALIMENTARIO">BONO ALIMENTARIO</option>
+
+</select> 
+<br><br>
+<span> ELIJA EL TIPO DE PUESTO</span>
+<select name = "TIPO DE PUESTO" id="" required autocomplete=""> 
+<option value ="DISEÑO">DISEÑO</option>
+<option value="FRONT END">FRONT END</option>
+<option value="BACK END">BACK END</option>
+
+</select> 
+
+<br><br>
+<span> BENEFICIOS A OFRECER </span>
+<input list = "Beneficios"> 
+
+<datalist id = "Beneficios">
+<option value="obra social">Obra social</option>
+<option value="gimnasio">Gymnasio</option>
+<option value="descuentos">Descuento en indumentaria</option>
+<option value="vacaciones">Vacaciones</option>
+<option value="bonos">Bonos</option>
+
+
+</datalist>
+
+<br><br>
+<label for="otros" > 
+<span> OTROS BENEFICIOS A OFRECER </span>
+<input type="text" id="otros">
+</label>
+
+
+<br><br>
+
+<span> ELIJA UNO O MAS DE LOS SIGUIENTES BENEFICIOS</span> <br><br>
+<label><input type="checkbox" id="promo" value="check 1"> PROMOCION EN SUPER</label> <br><br>
+<label><input type="checkbox" id="promo" value="check 2"> PROMOCION EN TURISMO</label> <br><br>
+<label><input type="checkbox" id="promo" value="check 3"> 2X1 EN GASTRONOMIA</label> <br><br>
+<label><input type="checkbox" id="promo" value="check 4"> PROMOCION EN MECANICA AUTOMOTRIZ</label> <br><br>
+<label><input type="checkbox" id="promo" value="check 5"> DESCUENTOS EN SEGUROS</label> <br><br>
+<label><input type="checkbox" checked = "" id="promo" value="check 6"> OTRO DESCUENTO</label> <br><br>
+
+<br><br>
+<input type="submit">
+
+</form>
