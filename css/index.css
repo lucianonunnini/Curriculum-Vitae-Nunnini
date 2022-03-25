@@ -5,7 +5,7 @@
 .cuerpo {background-color: rgb(177, 217, 230);
         width: 100%;
         padding: 20px 0px;
-        background-image: url(../img/fondo.jpg);
+        background-image: url(../img/fondgrisd.jpg);
         background-size: cover;
 }
 
@@ -13,9 +13,8 @@
 
 
 .menu { width: 900px;
-        margin: 0 auto
-
-
+        margin: 0 auto;
+       position:static;
 }
 
 nav {float: right;
@@ -35,6 +34,7 @@ nav ul li a {
                 color: rgb(26, 23, 23);
                 font-weight: bold;
                 position: relative;
+               
 }
 
 nav ul li a::before {
