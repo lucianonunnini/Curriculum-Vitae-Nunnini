@@ -67,6 +67,8 @@ header {display: flex;
 
 header img {margin-right: 10%;
                 margin-left: 20%;
+                border-radius: 1000px;
+                                
 }
 
 header h1 {color: rgba(245, 245, 245, 0.938);
