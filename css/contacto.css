@@ -4,12 +4,17 @@
 
 }
 
-h1 {   
-    padding-top: 50px;
+.cuerpocontacto h1 {padding-top: 10px;
+    margin-left: 150px;
+}
+
+.cuerpocontacto h3 {   
+    padding-top: 10px;
+    margin-left: 150px;
 }
 
 
-body{ background-color: lightblue;}
+
 
 .cuerpocontacto {
     margin:   5% 20%;
