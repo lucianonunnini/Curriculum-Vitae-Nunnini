@@ -1,0 +1,34 @@
+.cuerpocontacto {background-image: url(../img/fondogris.jpg);
+
+                background-size: cover;
+
+}
+
+h1 {   
+    padding-top: 50px;
+}
+
+
+body{ background-color: lightblue;}
+
+.cuerpocontacto {
+    margin:   5% 20%;
+    padding: 5%;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center; 
+    align-items: center;
+    
+    border-radius:  50px;
+    border:  solid ; color: rgb(10, 10, 10);
+
+    background-color: white;
+}
+  
+hr  {background-color: black;
+    height: 20px;
+    
+
+}
+
