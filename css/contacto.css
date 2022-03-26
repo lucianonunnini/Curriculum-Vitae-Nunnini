@@ -4,16 +4,24 @@
 
 }
 
+nav { margin-bottom: 20px;
+
+    margin-left: 270px;
+
+}
+
 .cuerpocontacto h1 {padding-top: 10px;
-    margin-left: 150px;
+    margin-left: 170px;
+    font: bold 30px Arial, sans-serif;
+    
 }
 
 .cuerpocontacto h3 {   
     padding-top: 10px;
     margin-left: 150px;
+    font: bold 20px Arial, sans-serif;
+    
 }
-
-
 
 
 .cuerpocontacto {
@@ -34,6 +42,5 @@
 hr  {background-color: black;
     height: 20px;
     
-
 }
 
