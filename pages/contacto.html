@@ -18,6 +18,9 @@
       </nav>
 
 <form action ="">
+  
+  <div>
+
     <label for="NOMBRE-EMPRESA"> 
 
    <td>¿Cuál es el nombre de la empresa?</span> </td> <span> 
@@ -26,23 +29,25 @@
 
 </label>
     
-<br> 
+</div>
 
+<div>
 <label for="NOMBRE-RECLUTADOR"> 
     <span> ¿Cuál es el nombre del reclutador?</span>
     <input type= "text" id="NOMBRE-RECLUTADOR" autocomplete="">
 
 </label>
+</div>
 
-<br> <br>
-
+  <div>
 <label for="email"> 
     <span> ¿Cuál es tu email?</span>
     <input type= "email" id="email">
 
 </label>
+</div>
 
-<br> <br>
+<div>
 
 <span> Seleccione la modalidad de trabajo</span>
 <select name = "Modalidad de trabajo" id="" required> 
@@ -51,28 +56,36 @@
 <option value="MODO HIBRIDO">MODO HIBRIDO</option>
 
 </select> 
-<br><br>
 
+</div>
+
+<div>
 <span> Elija la disponibilidad horaria solicitada</span><br><br> 
-<input type="radio" name = "DISPONIBILIDAD" value="PART TIME" >PART TIME <br><br>
-<input type="radio" name = "DISPONIBILIDAD" value="FULL TIME" >FULL TIME<br><br>
+<input type="radio" name = "DISPONIBILIDAD" value="PART TIME" >Part Time 
+<input type="radio" name = "DISPONIBILIDAD" value="FULL TIME" >Full Time
 
 </select> 
-<br>
 
+</div>
 
 </select> 
 
 </datalist>
 
+<div>
 
 <label for="otros" > 
 <span> BENEFICIOS A OFRECER </span>
 <input type="text" id="otros">
 </label>
 
-<br><br>
-<input type="submit">
+</div>
 
+<div class="boton">
+
+<input type="submit" >
+
+
+</div>
 </body>
 </form>
