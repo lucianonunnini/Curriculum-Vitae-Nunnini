@@ -45,14 +45,15 @@ div { margin-bottom: 25px;}
 .beneficios span { padding-bottom: 10px;
                    margin-bottom: 10px;
 }
+     
 
 .boton {
     
-    width: 8%;
+    width: 10%;
     text-decoration: none;
     padding: 6px;
-    font-weight: 60;
-    font-size: 20px;
+    font-weight: 30;
+    font-size: 14px;
     color: #ffffff;
     background-color: #1883ba;
     border-radius: 6px;
