@@ -65,3 +65,9 @@ div { margin-bottom: 25px;}
     background-color: #ffffff;
   }
 
+  button {background-color: rgb(158, 153, 153);
+    border-radius: 10px;    
+    width: 18%; 
+    font-size: 14px;
+    color: #ffffff;
+    }
