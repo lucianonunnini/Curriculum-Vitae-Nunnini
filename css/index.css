@@ -71,6 +71,10 @@ header h2 { color:  rgba(245, 245, 245, 0.932);
 
 }
 
+header button {background-color: rgb(158, 153, 153);
+                border-radius: 10px;        
+                }
+
 .containerbody {
         display: flex;
         margin:auto;
@@ -101,6 +105,7 @@ header h2 { color:  rgba(245, 245, 245, 0.932);
                 line-height: 1.2;
                 margin-bottom: 30px;
                 padding-top: 2px ; 
+                padding: 4px;
 }
 
 .box_body ul {margin-bottom: 20px;
