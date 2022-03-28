@@ -15,8 +15,9 @@ nav {float: right;
 
 nav ul li {
         list-style: none;
-        margin-left: 75px;
+        margin-left: 50px;
         padding: 12px,0;
+        margin-bottom: 12px;
         float: left;
         position: relative;
 }
@@ -57,14 +58,14 @@ header {display: flex;
 
 header img {margin-right: 10%;
                 margin-left: 20%;
-                border-radius: 1000px;
-                                
+                border-radius: 1000px;   
 }
 
 header h1 {color: rgba(245, 245, 245, 0.938);
         
                 padding-top: 40px;
-                }
+
+}
 
 header h2 { color:  rgba(245, 245, 245, 0.932);
 
