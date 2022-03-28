@@ -112,9 +112,7 @@ header button {background-color: rgb(158, 153, 153);
 
 }
 
-footer {background-color: rgb(1, 105, 131) ;
-     
-        
+footer {background-color: rgb(1, 105, 131) ;      
         width: 100%;
         padding: 20px 0px;
 }
@@ -148,3 +146,7 @@ footer {background-color: rgb(1, 105, 131) ;
                 margin-inline: 50px;
 }
 
+   
+.box_footer i { font-size: 20px;
+                color: aliceblue;
+}
