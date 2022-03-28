@@ -82,7 +82,7 @@ header h2 { color:  rgba(245, 245, 245, 0.932);
         margin-right: 200px;
 }
 .box_body p {max-width: 350px;
-                text-align: justify; 
+                text-align: left; 
               margin-bottom: 20px;                                
 }
 .box_body {
