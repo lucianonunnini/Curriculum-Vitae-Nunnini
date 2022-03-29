@@ -128,25 +128,26 @@ footer {background-color: rgb(1, 105, 131) ;
 
 .box_footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding-top: 5px;
+        margin-left: 5px;
 }
 
 .box_footer h3 {font: bold 20px Arial, sans-serif;
         margin-bottom: 10px;
                 color: rgb(39, 32, 32,26);
+                
  }
 
 .box_footer p { color: rgba(255, 255, 255, 0.918);
 }
 
-.box_footer a {margin-top: 8px;
-                color:rgba(255, 255, 255, 0.918)
-                font-weight 700; 
-                margin-inline: 50px;
+  
+.boxfooter a i { font-size: 20px;
+                color: aliceblue;   
+                
 }
 
-   
-.box_footer i { font-size: 20px;
-                color: aliceblue;
+.boxfooter h3 { font: bold 20px Arial, sans-serif;
+                padding-bottom: 5px ; 
 }
